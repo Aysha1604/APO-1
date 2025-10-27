@@ -1,0 +1,23 @@
+print('*** operadores de asignacion compuestos ***')
+a, b = 10, 15
+print(f'valor inicial a: {a}')
+print(f'valor inicial b: {b}')
+
+# operador compuesto de suma +=
+a += b # a = a + b  
+print(f'resultado operador a += b es: {a}')
+
+# operador compuesto de resta -=
+a = 10
+a -= b # a = a - b
+print(f'resultado operador a -= b es: {a}')
+
+# operador compuesto de multiplicacion *=
+a = 10
+a *= b # a - a * b
+print(f'resultado operador a *= b es: {a}')
+
+# operadores compuestos de division /=
+a = 10
+a /= b # a = a / b 
+print(f'resultado operador a /= b es: {a}') 

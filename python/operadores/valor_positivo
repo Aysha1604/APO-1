@@ -1,0 +1,8 @@
+print('*** revision valor positivo ***')
+numero = int(input('que numero quieres evaluar?: '))
+if numero > 0:
+    print(f'es positivo: {numero}')
+elif numero < 0: 
+    print(f'es negativo: {numero}')
+else: 
+    print(f'es cero {numero}')

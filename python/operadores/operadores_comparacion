@@ -1,0 +1,29 @@
+print('*** operadores de comparacion (relacionales)')
+a, b= 16, 16
+
+print(f'valor inicial de a: {a}')
+print(f'valor inicial de b: {b}')
+
+#operador igualdad == . regresa un valor logico (true/false)
+resultado = a == b
+print(f'resultado de a == b es: {resultado}')
+
+# operador diferente !=
+resultado = a != b 
+print(f'resultado de a != b es: {resultado}')
+
+# operador mayor que >
+resultado = a > b 
+print(f'resultado de a > b es: {resultado}')
+
+# operador mayor o igual que >=
+resultado = a >= b 
+print(f'resultado de a >= b es: {resultado}')
+
+# operador menor que  <
+resultado = a < b 
+print(f'resultado de a < b es: {resultado}')
+
+# operador menor o igual que <=
+resultado = a <= b
+print(f'resultado de a <= b es: {resultado}')

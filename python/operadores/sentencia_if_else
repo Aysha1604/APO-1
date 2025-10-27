@@ -1,0 +1,6 @@
+print('*** sentencia if else en python')
+dia_con_lluvia = False # true/false logicos
+if dia_con_lluvia:
+    print('llevar paraguas')
+else:
+    print('dejar paragua en casa')
